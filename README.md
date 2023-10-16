@@ -1,2 +1,2 @@
 # Project-OPIUM
-#Twoja mama
+Projekt OPIUM to strona aukcyjno-ogłoszeniowy.
