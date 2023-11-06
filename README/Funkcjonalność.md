@@ -1,4 +1,4 @@
-#Funkcjonalność
+# Funkcjonalność
 
 Główne działania strony to możliwość wstawiania ogłoszeń i organizowanie aukcji.
 
@@ -24,6 +24,15 @@ Do funkcji obiektu aukcji zalicza się:
 * Po zakończeniu aukcji nie można już wziąć udziału w niej, dać komentaż, a dla osoby która wygrała aukcję jest przypisywana ta aukcja i jest pobierana z konta opłata.
 
 <h2>Konta</h2>
+
+Konta to zbiory danych użytkownika obejmujące:
+* Dane osobowe
+* Detale płatnicze
+* Aukcje wygrane i wystawione
+* Ogłoszenia wystawione
+
+Konta są tworzone na stronie rejestracji do której można sie dostać stroną logowania lub stroną główną za pomocą linku w głównym sliderze.
+<img src="../graphic/alpha/Register.png" alt="register"/>
 
 <h2>Ogłoszenia</h2>
 <h2>Portfel</h2>
