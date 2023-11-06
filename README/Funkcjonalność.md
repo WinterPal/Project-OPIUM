@@ -31,8 +31,11 @@ Konta to zbiory danych użytkownika obejmujące:
 * Aukcje wygrane i wystawione
 * Ogłoszenia wystawione
 
-Konta są tworzone na stronie rejestracji do której można sie dostać stroną logowania lub stroną główną za pomocą linku w głównym sliderze.
-<img src="../graphic/alpha/Register.png" alt="register"/>
+Konta są tworzone na stronie rejestracji...
+<img src="../graphic/alpha/Register.png" alt="Strona rejestracji"/>
+...do której można sie dostać stroną logowania lub stroną główną za pomocą linku w głównym sliderze.
+<img src="../graphic/md_graphics/funk_home.png" alt="Strona główna"/>
+<img src="../graphic/md_graphics/funk_log.png" alt="Strona logowania"/>
 
 <h2>Ogłoszenia</h2>
 <h2>Portfel</h2>
