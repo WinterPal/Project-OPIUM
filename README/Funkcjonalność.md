@@ -26,18 +26,30 @@ Do funkcji obiektu aukcji zalicza się:
 <h2>Konta</h2>
 
 Konta to zbiory danych użytkownika obejmujące:
-* Dane osobowe
-* Detale płatnicze
-* Aukcje wygrane i wystawione
-* Ogłoszenia wystawione
+* Dane osobowe (Imię, nazwisko, wiek, płeć)
+* Dane kontaktowe (email, telefon)
+* Detale płatnicze (adres, formy doładowania konta)
+* Aukcje wygrane i wystawione (id)
+* Ogłoszenia wystawione (id)
+* Wirtualy portfel (stan konta, waluta)
+* Hasło
 
 Konta są tworzone na stronie rejestracji...
+
 <img src="../graphic/alpha/Register.png" alt="Strona rejestracji"/>
+
 ...do której można sie dostać stroną logowania lub stroną główną za pomocą linku w głównym sliderze.
+
+
 <img src="../graphic/md_graphics/funk_home.png" alt="Strona główna"/>
+
+
 <img src="../graphic/md_graphics/funk_log.png" alt="Strona logowania"/>
 
+Konta użytkowników są przechowywane w bazie i część danych są wyświatnale w panelu konta użytkownika.
 <h2>Ogłoszenia</h2>
+
+
 <h2>Portfel</h2>
 
 
