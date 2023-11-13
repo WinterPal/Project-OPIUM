@@ -64,7 +64,32 @@ Konta użytkowników są przechowywane w bazie i część danych są wyświatnal
 
 <h2>Ogłoszenia</h2>
 
+Ogłoszenia są wystawiane w zakładcę ogłoszenia i nie są związane z aukcjami.
+
+Ogłoszenia muszą mieć wyznaczone:
+* Tytuł ogłoszenia
+* Treść ogłoszenia
+* (Opcjonalne) Zdjęcie
+* Data wygaśnięcia ogłoszenia
+
+Ogłoszenia automatycznie mają wyznaczone i wyświatlane przy kliknięciu:
+* Date wystawienia ogłoszenia
+* Liczbę komentarzy
+* Liczbę zainteresowanych(forma polubień)
+
+Ogłoszenia w bloku HTML'owskim wyświatlane mają:
+* Liczbę komentarzy
+* Liczbę zainteresowanych
+* Datę wygaszenia ogłoszenia
+* Zdjęcie (w przypadku braku zdjęcia, brak obiektu img)
+* Tytuł i część opisu
 
 <h2>Portfel</h2>
+
+Informacje dotyczące portfea znajdują się w panelu użytkownika.
+
+Portfel ma daną ilość środków wyświatlanych nie na bierząco (jeżeli bierzemy udział w aukcji, pieniądze wstawione do niej nie są wyświatlane na naszym koncie).
+
+W panelu jest opcja zasilenia portfela dowolną z obsługiwanych walut, które są potem przeliczane na walutę używaną w portfelu.
 
 
