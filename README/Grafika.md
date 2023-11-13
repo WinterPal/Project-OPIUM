@@ -10,3 +10,5 @@ Strona z grafiki rastrowej będzie wymagała:
 * Części slidera
 * Banery
 * Zdjęcia defaultowe
+
+Program wykorzystywany do grafiki to Gimp.
