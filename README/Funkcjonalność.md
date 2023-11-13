@@ -95,5 +95,5 @@ W panelu jest opcja zasilenia portfela dowolną z obsługiwanych walut, które s
 
 <h2>Sekcja komentarzy</h2>
 
-Obiekty 
+Ogłoszenia i aukcje posiadają sekcję komentarzy której komentarze są zapisywane w tej samej kolekcji co aukcja lub kolejno, ogłoszenie.
 
