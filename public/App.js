@@ -1,28 +1,18 @@
-import Reg from './Reg';
+import ReactDOM from "react-dom/client";
+import { Link, BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import Reg from "./pages/Reg";
+import Home from "./pages/Home";
+
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="baner">
-        <div className="uno">Copium</div>
-        <div className="dos"><input type="text" placeholder="Czego szukasz?" id="hlp" /></div>
-
-
-      </header>
-
-      <section className="main">
-      <div className="sld">
-       <h1>Jesteś nowy?</h1> <br></br><a href="Reg.js" id="dd">Zarejestrój się!</a>
-      </div>
-      </section>
-
-      <footer className="stopka">
-
-      </footer>
-
-
-    </div>
+      <BrowserRouter>
+            <Routes>
+                   <Route path="/" element={<Home/>} />
+                   <Route path="/reg" element={<Reg />} />
+            </Routes>
+    </BrowserRouter>
   );
 }
 
