@@ -12,6 +12,7 @@ Aukcja musi mieć wyznaczony:
 
 * Czas - okres trwania aukcji.
 * Cena wejściowa - min. 10zł.
+* Cena akutualna
 * Nazwę, opis i zjęcie obiektu wystawianego.
 * Właściciela aukcji.
 * Typ aukcji - czy cena jest stała czy może się zwiększać.
@@ -43,7 +44,7 @@ Konta to zbiory danych użytkownika obejmujące:
 * Detale płatnicze (adres, formy doładowania konta)
 * Aukcje wygrane i wystawione (id)
 * Ogłoszenia wystawione (id)
-* Wirtualy portfel (stan konta, waluta)
+* Wirtualy portfel (stan konta, waluta, nominał)
 * Hasło
 
 Konta są tworzone na stronie rejestracji...
@@ -60,7 +61,7 @@ Konta są tworzone na stronie rejestracji...
 
 Konta użytkowników są przechowywane w bazie i część danych są wyświatnale w panelu konta użytkownika.
 
-<img src="../graphic/alpha/.png" alt="Strona logowania"/>
+<img src="../graphic/alpha/PanelUżytkownika.png" alt="Panel"/>
 
 <h2>Ogłoszenia</h2>
 
@@ -92,4 +93,7 @@ Portfel ma daną ilość środków wyświatlanych nie na bierząco (jeżeli bier
 
 W panelu jest opcja zasilenia portfela dowolną z obsługiwanych walut, które są potem przeliczane na walutę używaną w portfelu.
 
+<h2>Sekcja komentarzy</h2>
+
+Obiekty 
 
