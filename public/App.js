@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { Link, BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
-import Reg from "./pages/Reg";
-import Home from "./pages/Home";
+import Reg from "./Reg";
+import Home from "./Home";
 
 
 

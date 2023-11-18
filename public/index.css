@@ -33,9 +33,9 @@ body {
 #hlp{
   width: 700px;
   height: 25px;
-  background-color: rgb(248, 208, 160);
-  border-radius: 5px 5px 5px 5px;
-  border-color: rgb(248, 208, 160);
+  background-color: white;
+  border-radius: white;
+  border-color: white;
 }
 .sld{
   width: 1815px;
@@ -67,7 +67,7 @@ background-color: #141E46;
 }
 .rej{
   width: 720px;
-  height: 750px;
+  height: 650px;
   background-color: #c70039;
   position: relative;
   left: 540px;
@@ -75,4 +75,49 @@ background-color: #141E46;
   border-radius: 10px;
 text-align: center;
 }
+h2{
+  font-size: 45px;
 
+}
+#np{
+display: flex;
+position: relative;
+text-align: center;
+top: 10px;
+left: 150px;
+}
+.ttt{
+  font-size: 25px;
+  display: flex;
+position: relative;
+text-align: center;
+left: 110px;
+
+}
+.vll{
+  width: 500px;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  border-color: white;
+}
+
+.blok{
+  margin-top: 40px;
+}
+#btt{
+  width: 250px;
+  height:60px;
+  background-color: #fa2561;
+  border-color: #fa2561;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+font-size: 20px;
+margin-top: 40px;
+}
+#pb{
+  display: flex;
+  position: relative;
+  left: 800px;
+}
