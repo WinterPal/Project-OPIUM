@@ -2,7 +2,7 @@
 
 Główne działania strony to możliwość wstawiania ogłoszeń i organizowanie aukcji.
 
-Serwery strony będą przechowywać konta użytkowników, aukcje, ogłoszenia.
+Serwery strony będą przechowywać konta użytkowników, aukcje, ogłoszenia, zdjęcia.
 
 <h2>Aukcje</h2>
 
@@ -32,9 +32,9 @@ Stan konta po wzięcu udziału w aukcji nie zmiania się, lecz jest zapisywana k
 
 Do funkcji obiektu aukcji zalicza się:
 
-* Po kliknięciu jest przekierowanie do strony obiektu.
+* Po kliknięciu jest przekierowanie do podstrony obiektu.
 * Pod obiektem jest sekcja komentarzy.
-* Wypisywany jest wygrywający aukcji.
+* Wypisywany jest wygrywający aukcję.
 * Po zakończeniu aukcji nie można już wziąć udziału w niej, dać komentaż, a dla osoby która wygrała aukcję jest przypisywana ta aukcja i jest pobierana z konta opłata.
 <h2>Konta</h2>
 
@@ -59,7 +59,7 @@ Konta są tworzone na stronie rejestracji...
 
 <img src="../graphic/md_graphics/funk_log.png" alt="Strona logowania"/>
 
-Konta użytkowników są przechowywane w bazie i część danych są wyświatnale w panelu konta użytkownika.
+Konta użytkowników są przechowywane w bazie i część danych jest wyświetlana w panelu konta użytkownika.
 
 <img src="../graphic/alpha/PanelUżytkownika.png" alt="Panel"/>
 
@@ -87,13 +87,21 @@ Ogłoszenia w bloku HTML'owskim wyświatlane mają:
 
 <h2>Portfel</h2>
 
-Informacje dotyczące portfea znajdują się w panelu użytkownika.
+Informacje dotyczące stanu portfela znajdują się w panelu użytkownika.
 
 Portfel ma daną ilość środków wyświatlanych nie na bierząco (jeżeli bierzemy udział w aukcji, pieniądze wstawione do niej nie są wyświatlane na naszym koncie).
 
-W panelu jest opcja zasilenia portfela dowolną z obsługiwanych walut, które są potem przeliczane na walutę używaną w portfelu.
+W panelu jest opcja zasilenia portfela dowolną z obsługiwanych przez stronę walut, które są potem przeliczane na walutę używaną w portfelu.
 
 <h2>Sekcja komentarzy</h2>
 
-Ogłoszenia i aukcje posiadają sekcję komentarzy której komentarze są zapisywane w tej samej kolekcji co aukcja lub kolejno, ogłoszenie.
+Ogłoszenia i aukcje posiadają sekcję komentarzy, której komentarze są zapisywane w tej samej kolekcji co aukcja lub kolejno, ogłoszenie.
+
+Komentarze zawierają:
+
+* Użytkownika (który napisał komentarz)
+* Datę wystawienia komentarza
+* Treść komentarza
+
+Ograniczenie wielkości komentarzy to 400 znaków.
 

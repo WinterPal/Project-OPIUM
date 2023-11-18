@@ -1,6 +1,6 @@
 # Grafika
 
-Szata graficzna projektu zostanie stworzone w programie Figma.
+Szata graficzna projektu została wykonana w programie Figma.
 
 Kolorami przewodnimi strony są czerwony i granatowy.
 
@@ -10,11 +10,11 @@ Wartości:
 
 Do opsługi wyglądu strony, używana jest biblioteka Bootstrap.
 
-Większość obiektów używa linear-gradientu.
+Niektórę obiektów używają linear-gradientu.
 
 Ikony użyte na stronie, są z biblioteki Bootstrap.
 
-Strona z grafiki rastrowej będzie wymagała:
+Grafika rastrowa strony obejmuję:
 
 * Loga
 * Części slidera

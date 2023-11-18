@@ -15,3 +15,21 @@ Dokument na temat grafiki projektu: [Grafika](Grafika.md).
 
 # Podgląd strony:
 
+# Kredytowani:
+
+#### Dokumantacja i kierownik projektu:
+
+Tomasz Szubryt
+
+#### Grafika:
+
+Franciszek Rogowski
+
+#### Back-end:
+
+Łukasz Szacht
+
+#### Front-end:
+
+Jan Ostrowski
+Franciszek Rogowski
