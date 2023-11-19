@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 import { Link, BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 
 
-const Reg = () => {
+const Log = () => {
     return ( 
         <div className="App">
         <header className="baner">
@@ -18,7 +18,7 @@ const Reg = () => {
  
         <section className="main">
           <div className="rej">
-           <div id="np"><h2>Zarejestruj się</h2><br></br></div> 
+           <div id="lg"><h2>Zaloguj się</h2><br></br></div> 
            
           <div className="blok">
           <div className="ttt">
@@ -32,21 +32,15 @@ const Reg = () => {
             </div>
             <input type="text" className="vll"/><br></br>
           </div>
-          <div className="blok">
-          <div className="ttt" >
-            Powtórz Hasło<br></br>
-            </div>
-            <input type="text" className="vll"/><br></br>
-          </div>
 
-            <input type="submit" value="Zarejestrój się" id="btt"/><br></br>
+            <input type="submit" value="Zaloguj się" id="btt"/><br></br>
             
             </div>
-            <p id="ryt2">Masz konto:</p>
-            <div id="franiodebil2">
-         <Link to="/Log"><a id="dd">Zaloguj się!</a></Link>
+            <p id="ryt">Nie masz konta:</p>
+            <div id="franiodebil">
+         <Link to="/Reg"><a id="dd">Zarejestruj się!</a></Link>
             </div>
-         
+     
        </section>
  
         <footer className="stopka">
@@ -56,4 +50,4 @@ const Reg = () => {
      );
 }
  
-export default Reg;
+export default Log;
