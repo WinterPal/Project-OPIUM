@@ -1,6 +1,6 @@
-const User = require('./Schemas/userSchema');
-const Auction = require('./Schemas/auctionSchema');
-const Advertisement = require('./Schemas/advertisementSchema');
+const User = require('./schemas/userSchema');
+const Auction = require('./schemas/auctionSchema');
+const Advertisement = require('./schemas/advertisementSchema');
 
 module.exports = {
     User,
