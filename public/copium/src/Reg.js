@@ -19,13 +19,37 @@ const Reg = () => {
         <section className="main">
           <div className="rej">
            <div id="np"><h2>Zarejestruj się</h2><br></br></div> 
-           
-          <div className="blok">
+           <div className="blok">
           <div className="ttt">
-            Login<br></br>
+            Imie<br></br>
             </div>
             <input type="text" className="vll"/><br></br>
           </div>
+          <div className="blok">
+          <div className="ttt">
+            Nazwisko<br></br>
+            </div>
+            <input type="text" className="vll"/><br></br>
+          </div>
+          <div className="blok">
+          <div className="ttt">
+            Płeć<br></br>
+            </div>
+           <label>Mężczyzna:</label> <input type="radio"  name="pl" className="vll1"/><label>Kobieta:</label> <input type="radio" name="pl" className="vll1"/><label>inne:</label> <input type="radio" name="pl" className="vll1"/><br></br>
+          </div>
+          <div className="blok">
+          <div className="ttt">
+            Wiek<br></br>
+            </div>
+            <input type="text" className="vll"/><br></br>
+          </div>
+          <div className="blok">
+          <div className="ttt">
+            E-mail<br></br>
+            </div>
+            <input type="text" className="vll"/><br></br>
+          </div>
+        
           <div className="blok">
           <div className="ttt">
             Hasło<br></br>

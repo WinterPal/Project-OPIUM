@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { Link, BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 
-
+// dupa
 const Licytacja = () => {
     return ( 
         <div className="App">
