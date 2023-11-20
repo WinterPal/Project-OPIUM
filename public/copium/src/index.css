@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+.App{
+  font-family: 'IBM Plex Mono', monospace;
+  color: white;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.baner{
+  background-color: #c70039;
+  height: 9vh;
+  width: 100%;
+  clear: both;
+  text-align: left;
+  font-size: 60px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+}
+.uno{
+  float: left;
+  margin: 0;
+}
+.dos{
+  float: left;
+  padding-left: 150px;
+  display: flex;
+  align-items: center;
+
+}
+#hlp{
+font-family: 'IBM Plex Mono', monospace;
+font-size: 25px;
+  width: 120vh;
+  height: 46px;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  border-color: white;
+}
+.sld{
+  color: #eaf3f7;
+  width: 1815px;
+  height: 250px;
+    background-image: linear-gradient(to right, #C9D4FD ,#6C7AB1 );
+  position: relative;
+  left: 1%;
+  top: 50px;  
+  border-radius: 10px;
+text-align: center;
+}
+#ogl{
+  position: relative;
+  display: flex;
+  font-size: 30px;
+  top:100px;
+  left: 450px;
+  width: 400px;
+  height: 70px;
+  background-image: linear-gradient(to right, rgb(0, 132, 255) ,rgb(94, 232, 250)) ;
+  border-radius: 5px 5px 5px 5px;
+  color: rgb(37, 36, 36);
+  text-align: center;
+}
+#auk{
+  text-align: center;
+  position: relative;
+  display: flex;
+  font-size: 30px;
+  top:30px;
+  left: 1040px;
+  width: 400px;
+  color: rgb(228, 217, 217);
+  height: 70px;
+  background-image: linear-gradient(to right, rgb(235, 160, 75) ,rgb(255, 136, 0)) ;
+  border-radius: 5px 5px 5px 5px;
+}
+h7{
+  display: flex;
+  position: relative;
+  top: 12px;
+  left: 23  px;
+}
+#t1{
+  font-size: 25px;
+}
+h1{
+  
+  display: flex;
+  font-size: 60px;
+  position: relative;
+  top:50px;
+  left: 685px;
+}
+.dd{
+font-size: 20px;
+color: white;
+text-decoration: none;
+}
+.main{
+width: 100%;
+height: 1080px;
+float: left;
+background-color: #141E46;
+}
+.stopka{
+  width: 100%;
+height: 200px;
+float: left;
+background-color: #141E46;
+}
+.rej{
+  width: 720px;
+  height: 650px;
+  background-color: #c70039;
+  position: relative;
+  left: 650px;
+  top: 50px;
+  border-radius: 10px;
+text-align: center;
+}
+h2{
+  font-size: 45px;
+
+}
+#np{
+display: flex;
+position: relative;
+text-align: center;
+top: 10px;
+left: 150px;
+}
+.ttt{
+  font-size: 25px;
+  display: flex;
+position: relative;
+text-align: center;
+left: 110px;
+
+}
+.vll{
+  width: 500px;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  border-color: white;
+}
+
+.blok{
+  margin-top: 40px;
+}
+#btt{
+  width: 250px;
+  height:60px;
+  background-color: #fa2561;
+  border-color: #fa2561;
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+font-size: 20px;
+margin-top: 40px;
+}
+#pb{
+  display: flex;
+  position: relative;
+  left:750px;
+}
+#lg{
+  display: flex;
+position: relative;
+text-align: center;
+top: 10px;
+left: 200px;
+}
+#franiodebil{
+  display: flex;
+  position: relative;
+  text-align: center;
+  left: 1022px;
+  bottom: 182px;
+}
+#ryt{
+  display: flex;
+  position: relative;
+  text-align: center;
+  left: 900px;
+bottom: 150px;
+  font-size: 13px;
+color: white;
+}
+#ryt2{
+  display: flex;
+  position: relative;
+  text-align: center;
+  left: 930px;
+bottom: 50px;
+  font-size: 13px;
+color: white;
+}
+#franiodebil2{
+  display: flex;
+  position: relative;
+  text-align: center;
+  left: 1020px;
+  bottom: 82px;
+}
+#user{
+  display: flex;
+  position: relative;
+  text-align: center;
+  left: 70%;
+}
+#user2{
+  display: flex;
+  position: relative;
+  text-align: center;
+  left: 70px;
+}
+#linia{
+  border-left:5px solid rgb(255, 255, 255); 
+  height: 500px; 
+  width: 0;
+  display: flex;
+  position: relative;
+  text-align: center;
+  left: 1000px; 
+  top:100px;
+}
+h4{
+  font-size: 70px;
+  display: flex;
+  position: relative;
+  text-align: center;
+  left: 200px; 
+  bottom: 400px;
+}
+#uzyt{
+  font-size: 30px;
+  display: flex;
+  position: relative;
+  text-align: center;
+  left: 207px; 
+  bottom: 510px;
+}
+#opc{
+  position: relative;
+  
+  left: 1100px; 
+  bottom: 800px;
+  font-size: 27px;
+  display: inline;
+  
+}
+#licytuj{
+  display: flex;
+  position: relative;
+  top:3%;
+  left: 67%;
+  width: 350px;
+  height: 60px;
+  text-align: center;
+  font-size: 25px;
+  background-image: linear-gradient(to right, rgb(235, 160, 75) ,rgb(255, 136, 0)) ;
+  border-radius: 5px 5px 5px 5px; 
+  border: none;
+}
