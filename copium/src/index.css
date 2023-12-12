@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
-.App{
-  font-family: 'IBM Plex Mono', monospace;
-  color: white;
-
-}
 body {
   margin: 0;
   padding: 0;
@@ -22,13 +17,6 @@ body {
 .uno{
   float: left;
   margin: 0;
-}
-.dos{
-  float: left;
-  padding-left: 150px;
-  display: flex;
-  align-items: center;
-
 }
 #hlp{
 font-family: 'IBM Plex Mono', monospace;
