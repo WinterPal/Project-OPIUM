@@ -1,6 +1,11 @@
+import Auction from "./Auction.js"
 function AuctionBoard() {
     return ( 
-        <div id="acution_brd"></div>
+        <div id="auction_brd">
+            <Auction/>
+            <Auction/>
+            <Auction/>
+        </div>
      );
 }
 

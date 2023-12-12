@@ -18,13 +18,6 @@ body {
   float: left;
   margin: 0;
 }
-.dos{
-  float: left;
-  padding-left: 150px;
-  display: flex;
-  align-items: center;
-
-}
 #hlp{
 font-family: 'IBM Plex Mono', monospace;
 font-size: 25px;
