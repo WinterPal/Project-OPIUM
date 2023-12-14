@@ -99,13 +99,13 @@ float: left;
 background-color: #141E46;
 }
 .rej{
-  width: 720px;
-  height: 1000px;
+  width: 72vh;
+  height: 60vh;
   background-color: #c70039;
   position: relative;
-  left: 650px;
-  top: 50px;
-  border-radius: 10px;
+  left: 5vh;
+  top: 5vh;
+  border-radius: 1vh;
 text-align: center;
 }
 h2{

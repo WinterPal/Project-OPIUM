@@ -107,3 +107,58 @@ header{
     display: flex;
     justify-content:space-evenly;
 }
+
+#formlog{
+    width: 72vh;
+    height: 60vh;
+    background-color: #c70039;
+    position: relative;
+    left: 5vh;
+    border-radius: 1vh;
+  text-align: center;
+  color: white;
+  bottom: 5vh;
+}
+#FormReg{
+    color:white ;
+    width: 72vh;
+    height: 90vh;
+    background-color: #c70039;
+    position: relative;
+    left: 5vh;
+    border-radius: 1vh;
+  text-align: center    ;
+}
+
+.formelement{
+  position: relative;
+  margin-top: 5vh;
+}
+.forminput{
+    font-size: 2vh;
+    width: 50vh;
+    height: 4vh;
+    border-radius: 0.5vh 0.5vh 0.5vh;
+    border:none;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.submitbutton{
+    position: relative;
+  margin-top: 2vh;
+  border-radius: 0.5vh 0.5vh 0.5vh;
+  border:none;
+  cursor: pointer;
+  width: 30vh;
+  height: 6vh;
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #f8526e;
+  border-color: #f8526e;
+  color: white;
+  font-size:3vh ;
+  
+}
+.submitbutton:hover{
+    border: solid white 0.2vh ;
+}
+
