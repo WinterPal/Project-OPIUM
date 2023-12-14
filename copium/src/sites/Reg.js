@@ -1,10 +1,10 @@
 
-import RegBoard from "../elements/RegBoard.js"
+import FormReg from "../elements/FormReg.js"
 
 const Reg = () => {
 return (
       <div id="meat">
-       <RegBoard/>
+        <FormReg></FormReg>
       </div>
     );
 }

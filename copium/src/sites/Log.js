@@ -1,11 +1,10 @@
 
-import LogBoard from "../elements/LogBoard.js"
-
+import FormLog from "../elements/FormLog.js";
 
 const Log = () => {
     return ( 
         <div id="meat">
-          <LogBoard/>
+          <FormLog/>
         </div>
      );
 }

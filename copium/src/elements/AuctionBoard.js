@@ -4,7 +4,6 @@ function AuctionBoard() {
         <div id="auction_brd">
             <Auction/>
             <Auction/>
-            <Auction/>
         </div>
      );
 }

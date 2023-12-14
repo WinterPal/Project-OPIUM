@@ -6,7 +6,7 @@ function Auction() {
                 <div style={{"width":"49%","display": "flex"}}>
                     <img style={{"width":"50%","height": "326px"}}></img>
                     <div style={{"width":"50%","padding": "10px"}}>
-                        <h1>Twoja stara</h1>
+                        <h1></h1>
                         <p>Na przecenie i jej 2 kręgowe rdzenie.</p>
                     </div>
                 </div>
