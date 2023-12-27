@@ -12,12 +12,15 @@ function App() {
   return (
     <main>
       <TopBar/>
+<<<<<<< Updated upstream
       <BrowserRouter>
         <Routes>
           <Route index element={<Home></Home>}/>
           <Route path="/auction" element={<AuctionSite/>}/>
         </Routes>
       </BrowserRouter>
+=======
+>>>>>>> Stashed changes
     </main>
       
   );

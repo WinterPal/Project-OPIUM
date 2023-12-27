@@ -4,38 +4,39 @@ import { Link, BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 // dupa
 const Licytacja = () => {
     return ( 
-        <div className="App">
-        <header className="baner">
-        <Link to="/">C--</Link>
-          <div id="pb">
-          <div className="uno">Copium</div>
-          </div>
+      <div id="meat"></div>
+    //     <div className="App">
+    //     <header className="baner">
+    //     <Link to="/">C--</Link>
+    //       <div id="pb">
+    //       <div className="uno">Copium</div>
+    //       </div>
           
-          <div id="user">
-    <Link to="user">User</Link>
-    </div>
-        </header>
+    //       <div id="user">
+    // <Link to="user">User</Link>
+    // </div>
+    //     </header>
  
-        <section className="main">
-            <div id="import">
+    //     <section className="main">
+    //         <div id="import">
 
-            </div>
+    //         </div>
 
-          <div id="linia"></div>
+    //       <div id="linia"></div>
 
-          <div id="import2">
+    //       <div id="import2">
 
-          </div>
+    //       </div>
 
-         <button id="licytuj">Licytuj</button>
+    //      <button id="licytuj">Licytuj</button>
 
           
-       </section>
+    //    </section>
  
-        <footer className="stopka">
+    //     <footer className="stopka">
  
-        </footer>
-        </div>
+    //     </footer>
+    //     </div>
      );
 }
  

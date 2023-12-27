@@ -3,6 +3,7 @@ import AuctionBoard from "./AuctionBoard";
 import {useCallback, useRef} from 'react';
 
 function Board() {
+<<<<<<< Updated upstream
     var auction_board = useRef()
     var anouncment_board = useRef()
     function change_board(board_type){
@@ -14,6 +15,9 @@ function Board() {
             anouncment_board.style.display = "block"
         }
     }
+=======
+    var active = "ogłoszenia"
+>>>>>>> Stashed changes
     return ( 
         <div id="board">
             <div id="board_buttons">
@@ -21,8 +25,13 @@ function Board() {
                 <button onClick={event => change_board("anouncment")}className="board_btn aucti_btn">Ogłoszenia</button>
             </div>
             <div id="boards">
+<<<<<<< Updated upstream
                 <AuctionBoard ref={ref => {auction_board = ref}}/>
                 <AnouncmentBoard ref={ref => {anouncment_board = ref}}/>
+=======
+                {/* <AuctionBoard/> */}
+                <AnouncmentBoard/>
+>>>>>>> Stashed changes
             </div>
         </div>
      );
