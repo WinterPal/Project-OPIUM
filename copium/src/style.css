@@ -49,8 +49,13 @@ header{
     align-items: center;
     justify-content: space-evenly;
 }
-.slide {
+#slides {
     width: 90%;
+    overflow-x: hidden;
+    display: flex;
+}
+.slide {
+    min-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
