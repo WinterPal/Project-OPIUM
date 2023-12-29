@@ -9,6 +9,11 @@ const auctionRoutes = require('./routes/auctionRoutes');
 const advertisementRoutes = require('./routes/advertisementRoutes');
 
 app.use(express.json());
+app.use((req,res,next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    req.header('Access-Control-Allow-Origin', '*');
+    next();
+})
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/v1/auth", authRoutes);

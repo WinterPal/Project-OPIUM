@@ -14,6 +14,9 @@ body {
   display: flex;
   align-items: center;
 }
+#commentbar {
+  width: 100%;
+}
 .uno{
   float: left;
   margin: 0;
@@ -31,7 +34,7 @@ font-size: 25px;
   color: #eaf3f7;
   width: 1815px;
   height: 250px;
-    background-image: linear-gradient(to right, #C9D4FD ,#6C7AB1 );
+  background-image: linear-gradient(to right, #C9D4FD ,#6C7AB1 );
   position: relative;
   left: 1%;
   top: 50px;  
@@ -99,13 +102,13 @@ float: left;
 background-color: #141E46;
 }
 .rej{
-  width: 720px;
-  height: 1000px;
+  width: 72vh;
+  height: 60vh;
   background-color: #c70039;
   position: relative;
-  left: 650px;
-  top: 50px;
-  border-radius: 10px;
+  left: 5vh;
+  top: 5vh;
+  border-radius: 1vh;
 text-align: center;
 }
 h2{
