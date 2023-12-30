@@ -187,3 +187,32 @@ header{
         width: 60%;
     }
 }
+#userinfopanel{
+    color: white;
+    position: relative;
+    font-family: 'IBM Plex Mono', monospace;
+    right: 45vh;
+    top:5vh;
+
+}
+#useroptionpanel{
+    color: white;
+    position: relative;
+    font-family: 'IBM Plex Mono', monospace;
+    bottom: 80vh;
+    left: 35vh;
+}
+.useroptions{
+    font-size: 4vh;
+    margin-top: 5vh;
+}
+
+.line{
+    border-left:5px solid rgb(255, 255, 255); 
+    height: 50vh; 
+    width: 0;
+    display: flex;
+    position: relative;
+    left: 10vh; 
+    bottom: 25vh;
+}

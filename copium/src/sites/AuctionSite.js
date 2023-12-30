@@ -50,9 +50,8 @@ function AuctionSite(props) {
                         <p>Koniec aukcji: {data["time_left"]}</p>
                         <div style={{"display":"flex"}}>
                             <p style={{"marginLeft" : "5px"}}>{data["winner"]}</p>
-                            <p style={{"marginLeft" : "5px"}}>Początkowa cena: {data["min_price"]} zł</p>
-                            <p style={{"marginLeft" : "5px"}}>Cena górująca: {data["top_price"]} zł</p>
-                            {data["type"] == "increasing" ? (<button style={{"marginLeft" : "5px"}}>Podbij</button>) : (<button style={{"marginLeft" : "5px"}}>Kup</button>)}
+                            {data["type"] == "increasing" ? (<div><p style={{"marginLeft" : "5px"}}>Początkowa cena: {data["min_price"]} zł</p><p style={{"marginLeft" : "5px"}}>Cena górująca: {data["top_price"]} zł</p></div>) : (<p style={{"marginLeft" : "5px"}}>Cena: {data["min_price"]} zł</p>)}
+                            {data["type"] == "increasing" ? (<div><input type="number"></input><button style={{"marginLeft" : "5px"}}>Podbij</button></div>) : (<button style={{"marginLeft" : "5px"}}>Kup</button>)}
                         </div>
                     </div>
                 </div>
