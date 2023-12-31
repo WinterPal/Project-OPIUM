@@ -12,6 +12,7 @@ function AuctionSite(props) {
         "min_price" : "",
         "top_price" : "",
         "type" : "",
+        "coments" : {}
         
     })
     var location = useLocation()
@@ -31,7 +32,8 @@ function AuctionSite(props) {
             "winner" : "",
             "min_price" : res["auction"]["startingPrice"],
             "top_price" : res["auction"]["currentPrice"],
-            "type" : res["auction"]["auctionType"]
+            "type" : res["auction"]["auctionType"],
+            "coments" : res["auction"]["comments"]
             
         })
         console.log(res)})
@@ -51,12 +53,12 @@ function AuctionSite(props) {
                         <div style={{"display":"flex"}}>
                             <p style={{"marginLeft" : "5px"}}>{data["winner"]}</p>
                             {data["type"] == "increasing" ? (<div><p style={{"marginLeft" : "5px"}}>Początkowa cena: {data["min_price"]} zł</p><p style={{"marginLeft" : "5px"}}>Cena górująca: {data["top_price"]} zł</p></div>) : (<p style={{"marginLeft" : "5px"}}>Cena: {data["min_price"]} zł</p>)}
-                            {data["type"] == "increasing" ? (<div><input type="number"></input><button style={{"marginLeft" : "5px"}}>Podbij</button></div>) : (<button style={{"marginLeft" : "5px"}}>Kup</button>)}
+                            {data["type"] == "increasing" ? (<div style={{"marginLeft" : "5px","display" : "flex","justifyContent" : "center", "alignItems" : "center"}}><input type="number" min={data["min_price"]}></input><button style={{"marginLeft" : "5px"}}>Podbij</button></div>) : (<button style={{"marginLeft" : "5px"}}>Kup</button>)}
                         </div>
                     </div>
                 </div>
                 <div style={{"width" : "100%"}}>
-                    <CommentSection></CommentSection>
+                    <CommentSection coments={data["coments"]}></CommentSection>
                 </div>
             </div>
         ) : (

@@ -6,7 +6,7 @@ function Anouncment(props) {
     var iden = props.iden
     return ( 
             <div className="auction">
-                <Link to={{pathname : "/anouncment/" + iden,state: "dane"}} style={{"color":"white","textDecoration":"none"}}> 
+                <Link state={iden} to={{pathname : "/anouncment", hash : "#" + iden}} style={{"color":"white","textDecoration":"none"}}> 
                     <hr/>
                     <div style={{"display": "flex","width" : "100%"}}>
                         <img style={{"width":"25%","height": "326px"}}></img>
